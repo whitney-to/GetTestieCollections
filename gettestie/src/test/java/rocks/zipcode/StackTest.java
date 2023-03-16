@@ -31,10 +31,7 @@ public class StackTest {
         stack.push(item2);
         assertEquals(item2, stack.peek()); // false
 
-
         //Then
         assertEquals(item2, stack.pop()); // false
     }
-
-    // Make a bigger test exercising more Stack methods.....
 }
